@@ -9,7 +9,7 @@ const getAccessRequests = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 };
-console.log("hello");
+console.log("hello1");
 
 const submitAccessRequest = async (req, res) => {
     const { employeeId, tool } = req.body;
